@@ -3,6 +3,11 @@
 // Input: [64, 25, 12, 22, 11]
 // Output: [11, 12, 22, 25, 64]
 
+// Use Selection Sort when minimizing swaps is important or when you 're working with small datasets that don' t benefit from early termination.
+// Time complexity: O(N2), (where N = size of the array), for the worst, the best and average cases.
+// space complexity: O(1)
+
+
 #include <iostream>
 using namespace std;
 int main() {
