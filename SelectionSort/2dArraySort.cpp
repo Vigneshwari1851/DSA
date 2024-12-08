@@ -36,9 +36,6 @@ int main() {
            swap(arr[i][j] ,arr[i][mini]);
        }
        }
-       
-       
-       
    }
    
     for(int i = 0; i < row; i++) {

@@ -4,7 +4,7 @@
   Input: ["apple", "banana", "grape", "cherry", "date"]
   Output: ["apple", "banana", "cherry", "date", "grape"]
 
- */
+*/
 
 #include <iostream>
 using namespace std;

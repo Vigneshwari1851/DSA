@@ -14,6 +14,12 @@ space complexity: O(logn)
 input = {10, 7, 8, 9, 1, 5}
 output = 1 5 7 8 9 10
 
+lb             ub
+ 7 8 11 1 15 5
+ 7 8 5  1 15 11
+ 1 8 5  7 15 11
+
+
 */
 
 #include <iostream>
@@ -30,7 +36,7 @@ int partition(int a[] , int lb , int ub){
     int pivot = a[lb];
     int start = lb;
     int end = ub;
-    
+          
     while(start<end){
         while(a[start]<= pivot){
             start++;
